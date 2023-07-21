@@ -1,0 +1,46 @@
+<html>
+<head>
+<title>Kavel 17 Veld 35 Definitief Ontwerp</title>
+<link type="text/css" rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div id="frame">
+
+<!-- HIER BEGINT DE HEADER -->
+<!--#include virtual="header.shtml" -->
+
+<table width=630>
+<tr>
+
+<!-- HIER BEGINT DE TEKST -->
+<td class="content" width=470 valign=top align=left>
+<h1>Maquettes van het veld </h1>
+
+<p>
+<img src="/NieuwLeyden/photos/IMAGE_008-S.jpg">
+</p>
+<p>
+<img src="/NieuwLeyden/photos/IMAGE_011-S.jpg">
+</p>
+<p>
+<img src="/NieuwLeyden/photos/IMAGE_012-S.jpg">
+</p>
+<p>
+<img src="/NieuwLeyden/photos/IMAGE_017-S.jpg">
+</p>
+</td>
+
+<!-- HIER BEGINT DE NAVIGATIE -->
+<!--#include virtual="navigatie.shtml" -->
+
+</tr>
+</table>
+
+<!-- HIER BEGINT DE FOOTER -->
+<!--#include virtual="footer.shtml" -->
+
+</div>
+</body>
+
+</html>

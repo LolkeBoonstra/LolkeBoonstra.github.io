@@ -1,0 +1,41 @@
+<html>
+<head>
+<title>Lolke NeTCoN</title>
+<link type="text/css" rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div id="frame">
+
+<!-- HIER BEGINT DE HEADER -->
+<!--#include virtual="header.shtml" -->
+
+<table width=630>
+<tr>
+
+<!-- HIER BEGINT DE TEKST -->
+<td class="content" width=470 valign=top align=left>
+<h1>Welkom</h1>
+<p>
+Lolke NeTCoN doet netwerk consultancy met een persoonlijke tint. Dit houdt in dat we geen standaard oplossingen aandragen, maar kijken wat de klant nodig heeft.We zijn trots op onze totale onafhankelijkheid.
+</P>
+<p>
+De virtuele wereld is de portaal voor websites.
+</p>
+<p>
+</p>
+</td>
+
+<!-- HIER BEGINT DE NAVIGATIE -->
+<!--#include virtual="navigatie.shtml" -->
+
+</tr>
+</table>
+
+<!-- HIER BEGINT DE FOOTER -->
+<!--#include virtual="footer.shtml" -->
+
+</div>
+</body>
+
+</html>

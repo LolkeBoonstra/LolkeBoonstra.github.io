@@ -1,0 +1,49 @@
+<html>
+<head>
+<title>Kavel 17 Veld 35 Definitief Ontwerp</title>
+<link type="text/css" rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div id="frame">
+
+<!-- HIER BEGINT DE HEADER -->
+<!--#include virtual="header.shtml" -->
+
+<table width=630>
+<tr>
+
+<!-- HIER BEGINT DE TEKST -->
+<td class="content" width=470 valign=top align=left>
+<h1>3D schetsen BEAR Architecten </h1>
+<p>
+Meer foto's: <a href="do-3d1.shtml">pagina 1</a>
+</p>
+
+<p>
+<img src="/NieuwLeyden/photos/14092008-4_S.jpg">
+</p>
+<p>
+<img src="/NieuwLeyden/photos/14092008-5_S.jpg">
+</p>
+<p>
+<img src="/NieuwLeyden/photos/14092008-6_S.jpg">
+</p>
+<p>
+Meer foto's: <a href="do-3d1.shtml">pagina 1</a>
+</p>
+</td>
+
+<!-- HIER BEGINT DE NAVIGATIE -->
+<!--#include virtual="navigatie.shtml" -->
+
+</tr>
+</table>
+
+<!-- HIER BEGINT DE FOOTER -->
+<!--#include virtual="footer.shtml" -->
+
+</div>
+</body>
+
+</html>

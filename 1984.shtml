@@ -1,0 +1,60 @@
+<html>
+<head>
+<title>1984</title>
+<link type="text/css" rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div id="frame">
+
+<!-- HIER BEGINT DE FLASH ANIMATIE -->
+
+<div id="header">
+
+<!-- URL's used in the movie-->
+<!-- text used in the movie-->
+<!--dina boonstra, fotografe --><OBJECT classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+ codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=5,0,0,0"
+ WIDTH=660 HEIGHT=121>
+ <PARAM NAME=movie VALUE="header.swf"> <PARAM NAME=quality VALUE=high> <PARAM NAME=bgcolor VALUE=#000000> <EMBED src="header.swf" quality=high bgcolor=#000000  WIDTH=660 HEIGHT=121 TYPE="application/x-shockwave-flash" PLUGINSPAGE="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash"></EMBED>
+</OBJECT>
+
+<table width=630>
+<tr>
+
+<!-- HIER BEGINT DE TEKST -->
+<td class="content" width=470 valign=top align=left>
+<h1>1984 fetisjisme</h1>
+<a href="http://twitter.com/share" class="twitter-share-button"
+	         data-count="none" data-via="netconlolke">Tweet</a><script
+		           type="text/javascript"
+			              src="http://platform.twitter.com/widgets.js"></script>
+
+<p>
+<B>Persoonlijk</B><BR>
+Al vroeg had ik een fascinatie voor dit jaartal. Al voordat ik wist dat er een Engels boek met het jaartal als titel over geschreven is. Natuurlijk wist ik dat ik in dat jaar volwassen (toen nog bij 21 jaar) zou worden. Wat ik niet van te voren wist, maar toch is gebeurd, is dat ik sinds juni van dat jaar een relatie heb.
+</p>
+<p>
+<B>Het boek</B><BR>
+Wat moet je eigenlijk over zo'n <A HREF="http://en.wikipedia.org/wiki/Nineteen_Eighty-Four" TARGET="_BLANK">klassieker</A> nog melden. En zoals al duidelijk mag zijn heeft het veel indruk op mij gemaakt.
+</p>
+<p>
+<B>De muziek</B><BR>
+Als eerste kwam mij een nummer van <A HREF="http://en.wikipedia.org/wiki/David_Bowie#1974_to_1976:_Soul.2C_R.26B.2C_and_The_Thin_White_Duke" TARGET="_BLANK">David Bowie</A> ten gehore. Ik denk dat ik de orginele release niet bewust heb meegekregen, maar het nummer is wel in mijn onderbewustzijn beland.
+<BR>
+Een muzikale interpretatie die veel indruk heeft gemaakt is die van <A HREF="http://www.rwcc.com/title_detail.asp?int_titleID=10" TARGET="_BLANK">Rick Wakeman</A>. Een toetsen virtuoos uit de Britse pop scene.
+<BR>
+Dan is er nog een muzikale versie van de <A HREF="http://www.vibber.dk/eurythmistan/records/1984/index.shtml" TARGET="_BLANK">Eurythmics</A>. Het is een soundtrack van een <A HREF="http://en.wikipedia.org/wiki/1984_(1984_film)" TARGET="_BLANK">verfilming</A> van het boek. Alleen zijn voor de film niet alle nummers gebruikt.
+</p>
+</td>
+
+<!-- HIER BEGINT DE NAVIGATIE -->
+<!--#include virtual="/navigatie.shtml" -->
+
+</tr>
+</table>
+
+</div>
+</body>
+
+</html>
