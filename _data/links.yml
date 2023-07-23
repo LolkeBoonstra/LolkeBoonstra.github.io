@@ -1,0 +1,16 @@
+- name: Mailbox Prolocation
+  link: "https://webmail.prolocation.net"
+- name: Mailbox XS4ALL
+  link: "https://webmail.xs4all.nl"
+- name: Mailbox Werk
+  link: "https://webmail.tudelft.nl"
+- name: LinkedIn
+  link: "http://www.linkedin.nl"
+- name: Twitter
+  link: "https://www.twitter.com"
+- name: Facebook
+  link: "http://www.facebook.com"
+- name: RaboBank
+  link: "https://bankieren.rabobank.nl/mijnbankzaken"
+- name: Radio 3 FM
+  link: "http://www.3fm.nl"

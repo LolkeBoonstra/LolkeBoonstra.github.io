@@ -1,0 +1,7 @@
+<nav>
+  {% for item in site.data.links %}
+    <a href="{{ item.link }}" TARGET="_blank" >
+      {{ item.name }}
+    </a>
+  {% endfor %}
+</nav>
