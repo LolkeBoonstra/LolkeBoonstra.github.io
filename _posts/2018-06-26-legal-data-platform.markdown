@@ -11,7 +11,7 @@ For the workshop we also invited (next to the researchers) two of the data stewa
 
 An introductory presentation and discussion on the GDPR (AVG) was given by drs. Marlon Domingus from Erasmus University. He gave a thorough insight into how and where the GDPR (General Data Protection Regulation) comes into play. Although a (D)PIA (Privacy Impact Assessment) is not always necessary, it is a handy tool to get the discussion on track. Marlon presented a flowchart of a research project using (privacy) data. The flowchart was immediately applied to one of the WiFi data use cases during the discussion.
 
-Image1
+![Flowchart](https://assets.digitalocean.com/articles/alligator/boo.svg "Flowchart")
 
 Some of the key points:
 
@@ -20,9 +20,8 @@ Understanding what the legal ground is for collecting or further processing. Res
 
 In the second part of the session I presented a global view of a data platform for the researchers. This platform combines different data resources into one storage system, which can be queried by the different researchers. The technical implementation is not the problem.
 
-Image2
+![Platform](https://assets.digitalocean.com/articles/alligator/boo.svg "Platform")
 
 In the session it was clear that the production side and storage part should comply to the GDPR. The production side is a further processing of already gathered data. The legal ground for this processing must be stated. This GDPR compliancy must be created by Department ICT&FM. Each researcher must then clearly define the purpose for which they are going to use the data and be GDPR compliant. Good user management is essential to control who can collect what data from the platform. The researcher must only be allowed to collect the data they need for their particular research question.
 
 Of course ethics also play a part in this. The university is working on a new integrity policy. A taskforce will possibly be created to deal with the changes coming from the changing legislation. The researchers in the session would like to see a flowchart for the ethics, similar to the flowchart for the legal aspects.
-
