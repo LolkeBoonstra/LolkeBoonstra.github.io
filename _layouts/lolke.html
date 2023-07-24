@@ -6,9 +6,31 @@
     <link rel="stylesheet" href="/assets/css/styles.css">
   </head>
   <body>
-    {% include navigation.html %}
-    {% include locallinks.html %}
-    {% include links.html %}
-    {{ content }}
+      <div id="frame">
+        <!-- HIER BEGINT DE HEADER -->
+        <div id="header">
+        </div>
+        <table width=630>
+          <tr>
+            <td class="content" width=470 valign=top align=left>
+
+              <!-- HIER BEGINT DE TEKST -->
+              {{ content }}
+            </td>
+            <!-- HIER BEGINT DE NAVIGATIE -->
+            <!--#include virtual="/navigatie.shtml" -->
+            <td class="content" width=160 valign=top align=left>
+              {% include navigation.html %}
+              {% include locallinks.html %}
+              <h2>Virtuele Wereld</h2>
+              <p class="links">
+                {% include links.html %}
+              </p>
+            </td>
+          </tr>
+        </table>
+      <!-- HIER BEGINT DE FOOTER -->
+      <!--#include virtual="footer.shtml" -->
+    </div>
   </body>
 </html>

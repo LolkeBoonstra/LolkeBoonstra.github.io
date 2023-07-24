@@ -1,8 +1,9 @@
 <nav>
   {% for item in site.data.locallinks %}
+    <h2>
     <a href="{{ item.link }}" TARGET="_blank" >
       {{ item.name }}
     </a>
-    <br>
+    </h2>
   {% endfor %}
 </nav>
