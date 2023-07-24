@@ -23,7 +23,7 @@ email: l.boonstra@tudelft.nl
 description: >- # this means to ignore newlines until "baseurl:"
   This part of my website contain the blogs I have written for my work at the TU Delft.
 baseurl: "/Blogs" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://lolkeboonstra.github.io/Blogs/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: netconlolke
 github_username:  LolkeBoonstra
 
