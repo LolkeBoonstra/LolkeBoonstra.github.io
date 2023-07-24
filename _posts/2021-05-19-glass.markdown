@@ -1,0 +1,65 @@
+---
+layout: post
+title:  "Flexibility with Glass"
+date:   2021-05-19 11:31:02 +0200
+categories: jekyll update
+---
+
+### Introduction
+Probably the first thing people think about when discussing glass in the Netherlands is the Dutch greenhouses. Their history goes back to the mid-19th century. Next thing would be the glass factory in Leerdam, famous for its crystalline glassworks founded in 1878. And me myself am living in a self-designed house with lots of glass. But this is all about breakable glass and not the flexible glass I want to discuss in this blog. I want to talk about glass-fibre cables. They are the foundation of the major part of communication networks. From Wikipedia I took the following description.
+
+ “An optical fiber (or fibre in British English) is a flexible, transparent fiber made by drawing glass (silica) to a diameter slightly thicker than that of a human hair. Optical fibers are used most often as a means to transmit light between the two ends of the fiber and find wide usage in fiber-optic communications, where they permit transmission over longer distances and at higher bandwidths than electrical cables. Fibers are used instead of metal wires because signals travel along them with less loss; in addition, fibers are immune to electromagnetic interference, a problem from which metal wires suffer. Fibers are also used for illumination and imaging, and are often wrapped in bundles so they may be used to carry light into, or images out of confined spaces, as in the case of a fiberscope. Specially designed fibers are also used for a variety of other applications, some of them being fiber optic sensors and fiber lasers.”
+
+### The basis of networking
+As can be seen from the Wikipedia quote, fibre is used a lot for networking. Especially the Internet relies heavily on fibre for its international connections. The super highway between western Europa and North America consists of lots of fibre sea cables. Also the African continent is connected to the Internet by a ring of fibres around the continent.
+
+![Northern Route](https://assets.digitalocean.com/articles/alligator/boo.svg "Northern Route")
+
+The Netherlands is very well equipped with glass fibre. The flat clay/sand surface is very suitable to roll-out fibre on land too. For the small country it is, we even are directly connected to the super highway. Our west coast has around 5 landing stations where sea cables end and are connected to the on land infrastructure.
+
+Fibre is the first, or physical, layer of the network stack. And even on this level there are exchange points to flexibly connect fibres from different networks. As light is used over these fibres, we are talking about a light path exchange. “Netherlight” is the name of the Dutch exchange point, with international connections around the world including the American exchange point “Starlight”. “Netherlight” has also direct connections to most of the Cloud and Telco providers in the Netherlands.
+
+### TU Delft
+Fibre is the basis of the network for the TU Delft, as well as for the campus network and for the data centre network. And fibre is used to connect to our Internet Service provider SURF. Mostly you use a fibre pair for one connection. One fibre to send and the other to receive. At the TU Delft Campus all buildings have around 48 fibres from the data centres to the buildings. The datacentres themselves have two paths with around 200 fibres each. So there is a big flexibility in creating connection on the Campus. In the following paragraphs I will discuss the projects we did and do at the TU Delft the past years to help researchers and innovate.
+
+### Light paths
+Fibre connection are an easy way to circumvent the default network connection. This can be useful when you cannot use the standard Internet connection or you do not want to interfere with the production environment. Currently direct connections are in use for testbeds and the time-service. More on the latter in one of the following paragraphs.
+
+Together with SURF light paths have been created at the TU Delft for special research connections. With their Enlighten Your research contests we were able to establish the last mile to the INSY lab in the high building of EEMCS then for two research groups. For this last mile we had to roll-out single mode fibre in the campus building of the lab (see Inflexibility). The lab was directly connected to the research networks of the UMC’s in Leiden and Rotterdam, circumventing the (public) Internet.
+
+Most of the light paths were created from the data centres. In these cases no real extra work had to be done (beside some patch cables) for the last mile. One of these light paths was used for a long distance connection to America, to bypass routers to see if data transfers would improve.
+
+### TheGreenVillage
+For this FieldLab a flexible infrastructure had to be designed at a time when there was only a green field (literally). To connect TheGreenVillage to the TU Delft network it was decided that TheGreenVillage itself would be connected as if it was one Campus building. This meant two fibre paths to the datacentres, so high resiliency was created. At first it looked like we had to work with equipment on the green field, so outdoors. Luckily the OfficeBuilding was built the same time the fibres were delivered. The OfficeBuilding became the main equipment room for the terrain.
+
+![GreenVillage Fibre](https://assets.digitalocean.com/articles/alligator/boo.svg "GreenVillage Fibre")
+
+On the terrain itself the TU Delft invested heavily in hardware in the ground from the start. In this way no digging is needed for connecting a project on the terrain with fibre.  The whole terrain has  lots of places  where the fibre can be taken up to above ground to connect a project.
+
+For investigating sustainable living TheGreenVillage rents innovative houses on the terrain. Of course all the houses are connected with fibre. This can be used for the Internet connection of the renters and for the data from the sensors in the houses. The flexible design from the start has proven to be a big success for all the projects at TheGreenVillage
+
+### Time service
+To help researcher from [VU Amsterdam] (https://www.vu.nl/nl/index.aspx ) and [VSL] (https://www.vsl.nl/en) to develop an accurate time service based on internet protocols instead of satellite/radio communication, SURF and TU Delft facilitated direct fibre between VSL and VU Amsterdam
+
+At first a fibre pair was created from VSL just south of TU Delft over the campus infrastructure of the TU Delft via the SURF infrastructure to VU in Amsterdam. The time signal itself only needs one fibre. So the second was used to double the distance.
+
+After a while this ended up in an time signal service on the optical network of SURF. The TU Delft was the first to use the service for a research project based at TheGreenVillage. Rolling out the needed hardware was done simultaneously by SURF and the TU Delft. The flexible fibre infrastructure of SURF and the TU Delft made rolling out this service very easy.
+
+### Inflexibility
+There are situations where the flexibility of fibre stops. As with all techniques there are different standards. And fibre is not an exception. There are two main standards, multi-mode fibres and single-mode fibres. The first can be used for short distances, less than 1km,  and the second can be used for all distances, but its interfaces are more expensive. You cannot directly connect  single-mode to multi-mode, active hardware is needed to convert from on to the other. This means that direct light paths are not possible over the two of them. And at the TU Delft the internal cables in the buildings are (still) multi-mode. So direct light paths to research labs are difficult. Luckily a project has started to replace all multi-mode cables with single-mode. Nowadays there is a much smaller price difference between the two types of interface.
+
+### Fibre as a sensor
+As stated in the Wikipedia quote, fibres can also be used for other applications. The [DAPwell project](https://www.tudelft.nl/thermo-x/campus-projects ) is such a case. Here the fibre is used as a sensor. The data from this sensor is of course again transferred over fibre. The sea cable from Google on the Internet highway between North-America and Western-Europe is used as a sensor for subsea earthquakes.
+
+### Quantum Internet
+The TU Delft, being a partner in [QuTech] (https://qutech.nl/ ), is one of the key players in developing a Quantum Internet. As fibre is the basis for networking, it also plays a role in this situation. The flexible fibre infrastructure of the TU Delft campus was first used to create entanglement over a long distance. Longer than possible in a lab. The researcher from QuTech created entanglement over a distance of around 2KM. At first the researchers wanted to create a connection from their laboratory to the centre of Delft. This would take a lot of digging in difficult terrain. Going in the opposite direction meant using the fibres available on the campus.
+
+### Conclusion
+The TU Delft, being a partner in [QuTech] (https://qutech.nl/ ), is one of the key players in developing a Quantum Internet. As fibre is the basis for networking, it also plays a role in this situation. The flexible fibre infrastructure of the TU Delft campus was first used to create entanglement over a long distance. Longer than possible in a lab. The researcher from QuTech created entanglement over a distance of around 2KM. At first the researchers wanted to create a connection from their laboratory to the centre of Delft. This would take a lot of digging in difficult terrain. Going in the opposite direction meant using the fibres available on the campus.
+
+### Acknowledgements
+
+I would like to thank Rob Smets from SURF for his efforts on the time signal optical service.
+
+The GreenVillage Fibre  photo by Lolke Boonstra, licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license.
+

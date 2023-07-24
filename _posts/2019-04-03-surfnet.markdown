@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "Temporary Secondment of Lolke Boonstra to SURFnet"
+date:   2019-04-03 11:31:02 +0200
+categories: jekyll update
+---
+
+Lolke Boonstra will temporarily reinforce the Community Management Research team within [SURFnet](https://www.surf.nl/en) for a number of specific activities in the field of network technology. He started on 1 February 2019 and the secondment will run for a period of 5 months.
+
+Lolke Boonstra from TU Delft ICT Innovation and Peter Hinrich from Community Management Research found that there are several research projects for which there are just too few resources at SURFnet. In consultation with their mutual department heads, it was decided that Lolke Boonstra would temporarily support SURFnet.
+
+The first project is the Quantum Internet. [QuTech](https://qutech.nl/) is the initiator of a major European project called the Quantum Internet Alliance. SURFnet is involved because of its fiber optic infrastructure and knowledge of fiber optic characteristics. Lolke Boonstra is going to facilitate the consultations with the partners within this project. This for both the required network topology and together with SURFsara to improve the network simulations with the knowledge of the fiber optic characteristics present at SURFnet.
+
+Another major project is the [Square Kilometer Array](https://en.wikipedia.org/wiki/Square_Kilometre_Array) (SKA). This concerns radio telescopes for astronomers. In South Africa and Australia, sensors are installed on sites of several square kilometers that together form a large radio telescope. The data from these telescopes must be transported to Europe. Together with SURFsara and [ASTRON](https://www.astron.nl/), SURFnet is looking at how they can ensure that the Netherlands becomes an important node for these data flows. This requires bandwidths of 100Gbs per location. Lolke Boonstra will help ASTRON in Dwingeloo with their infrastructure and also help with setting up performance tests for the international connections. An important reason for this cooperation is the mutual exchange of knowledge.
+
+A more practical project is to describe SURFnet's services from the institution's perspective. For this, Lolke Boonstra is going to write a best practice for the use of the Multiple Service Port (MSP) for both the SURFnet IP connection and Light paths and other services. With the arrival of the SURFnet8 network, more 100Gbs links will be purchased at the affiliated institutions. This makes combining the different services over an MSP more interesting.
+
+### Acknowledgements
+This blog originally appeared in Dutch as a news item in the TU Delft ICT newsletter.

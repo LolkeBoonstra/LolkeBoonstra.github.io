@@ -15,8 +15,8 @@ An introductory presentation and discussion on the GDPR (AVG) was given by drs. 
 
 Some of the key points:
 
-Finding a balance between the legitimate interest of the researcher and the privacy right of the individual.
-Understanding what the legal ground is for collecting or further processing. Research itself can be a legal ground for collecting or processing privacy data.
+- Finding a balance between the legitimate interest of the researcher and the privacy right of the individual.
+- Understanding what the legal ground is for collecting or further processing. Research itself can be a legal ground for collecting or processing privacy data.
 
 In the second part of the session I presented a global view of a data platform for the researchers. This platform combines different data resources into one storage system, which can be queried by the different researchers. The technical implementation is not the problem.
 
@@ -25,3 +25,6 @@ In the second part of the session I presented a global view of a data platform f
 In the session it was clear that the production side and storage part should comply to the GDPR. The production side is a further processing of already gathered data. The legal ground for this processing must be stated. This GDPR compliancy must be created by Department ICT&FM. Each researcher must then clearly define the purpose for which they are going to use the data and be GDPR compliant. Good user management is essential to control who can collect what data from the platform. The researcher must only be allowed to collect the data they need for their particular research question.
 
 Of course ethics also play a part in this. The university is working on a new integrity policy. A taskforce will possibly be created to deal with the changes coming from the changing legislation. The researchers in the session would like to see a flowchart for the ethics, similar to the flowchart for the legal aspects.
+
+### Acknowledgements
+Thank you to colleague [Julie Beardsell](https://www.tudelft.nl/staff/j.a.beardsell/) for turning the blog inside-out and to her and colleague [Susan Branchett](https://www.tudelft.nl/staff/s.e.branchett/) for correcting my English.

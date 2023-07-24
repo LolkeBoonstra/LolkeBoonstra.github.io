@@ -1,0 +1,40 @@
+---
+layout: post
+title:  "How far can you go? IoT communication over a 446 KM radio link"
+date:   20yy-mm-dd 11:31:02 +0200
+categories: jekyll update
+---
+
+On June 6th 2018, the new LoRaWAN gateway on the roof of the EEMCS building (at Mekelweg 4, Delft, NL) received a message sent from the vicinity of Manchester, UK, by Philip Martin’s LoRaWAN device. This means that data wirelessly traversed a distance of 446 KM, which is believed to be a record for ground-to-ground LoRaWAN transmission.
+
+![Figure 1. Record ground-to-ground LoRaWAN transmission.](https://assets.digitalocean.com/articles/alligator/boo.svg "Figure 1. Record ground-to-ground LoRaWAN transmission.")
+
+LoRaWAN (Long Range Wide Area Network) is a specification of a wide-area network used for long-distance communication with low power consumption, but also at low data rates. LoRaWAN is a prototypical Internet-of-Things (IoT) technology, because its chips are cheap and consume little energy. Moreover, in IoT, many sensors often only need to periodically report small amounts of data, so high data rates are not called for.
+
+Several LoRaWAN networks exist, for example those offered by The Things Network and KPN. A LoRaWAN architecture consists of gateways, network-servers, and application-servers. The IoT nodes – often built on Arduino and Rasberry Pi – that communicate via LoRaWAN send messages via LoRa radio frequencies in the unlicensed ISM band (in Europe 868 MHz is used). When such a message is received by a gateway, which is connected to the Internet, it sends the message to the network-server, which filters duplicate messages and performs some additional tasks. The application-server collects the messages and presents them to the right users.
+
+In 2015, Fernando Kuipers (an associate professor at the Embedded & Networked Systems section, EEMCS) received a LoRaWAN gateway from SURFnet, which was placed in-doors on the 21st floor of the EEMCS building and connected to The Things Network. That gateway sparked several LoRaWAN research efforts, such as the first large-scale performance evaluation of LoRaWAN in the wild, the first systematic study of LoRaWAN security vulnerabilities, extensive experiments on LoRaWAN scalability and collision conditions, and recently a remote-sensing approach to modeling the LoRa radio channel for planning purposes. Pointers to these articles are provided below.
+
+Given that the popularity of using LoRaWAN was growing within and outside of the TU Delft campus, Fernando asked the department ICT&FM to purchase outdoor LoRaWAN gateways and also take over the maintenance. The internal gateway has been replaced by an outside gateway and a second outside gateway has been placed on the roof of the AE building. Both gateways are connected to The Things Network. Shortly after the new gateway was installed at the EEMCS building, messages from England were received. First from places close to the UK coast and later from the Manchester area, which set the record for largest ground-to-ground distance. The EEMCS gateway’s high placement and the favorable 2018 summer weather helped a lot to cover such a distance.
+
+Taking over the maintenance of the gateway also meant developing a gateway placement plan. While the EEMCS building is high and therefore good for long-distance communication, the campus itself was not completely covered. The roof of AE was selected for the second gateway and more gateways will be installed on different locations, starting with the surroundings of the IDE square. In addition to opening-up the gateways to the public via The Things Network, the gateways will also be incorporated in the private LoRaWAN network for Smart Buildings and as one of the enablers of IoT. This is a cooperation between Real Estate and ICT&FM. For example, the Green Village area is used for a lot of different projects. Most of these projects use different kinds of sensors. The campus LoRaWAN network could be used by these projects to handle their data and consequently could facilitate all kinds of research using different low energy sensors.
+
+![Figure 2. LoRaWAN gateway at the AE building.](https://assets.digitalocean.com/articles/alligator/boo.svg "Figure 2. LoRaWAN gateway at the AE building.")
+
+Not only TU Delft researchers are using LoRaWAN (via our gateways), but also users within the Delft region, some of whom are connected through the Delft user [community on The Things Network](https://www.thethingsnetwork.org/community/delft/). The community and the use of the gateways is not restricted to the employees and students of the TU Delft. The community now consists of around 25 so-called contributors and almost 20 gateways.
+
+Further reading
+1. N. Blenn and F.A. Kuipers, “LoRaWAN in the Wild: Measurements from The Things Network,” arXiv:1706.03086.
+1. X. Wang, E. Karampatzakis, C. Doerr, and F.A. Kuipers, “Security Vulnerabilities in LoRaWAN,” Proc. of the 3rd ACM/IEEE International Conference on Internet-of-Things Design and Implementation (IoTDI), Orlando, Florida, USA, April 17-20, 2018.
+1. A. Rahmadhani and F.A. Kuipers, “When LoRaWAN Frames Collide,” Proc. of the 12th International Workshop on Wireless Network Testbeds, Experimental Evaluation & Characterization (ACM WiNTECH 2018), New Delhi, India, November 2, 2018.
+1. S. Demetri, M. Zuniga, G.P. Picco, F.A. Kuipers, L. Bruzzone, T. Telkamp, “Automated Estimation of Link Quality for LoRa: A Remote Sensing Approach”, Proc. of the ACM/IEEE International Conference on Information Processing in Sensor Networks (ACM/IEEE IPSN 2019), Montreal, Canada, April 16-18, 2019.
+
+### Acknowledgements
+Fernando A. Kuipers is an associate professor and head of the Lab on Internet Science at Delft University of Technology (TU Delft). Find him at [TU Delft]() or [here](https://fernandokuipers.nl/).
+
+"How far can you go? IoT communication over a 446 KM radio link" by Dr. Ir. Fernando A. Kuipers and Drs. Lolke Boonstra is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license.](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+
+Figure 1 was taken from ttnmapper.org/special.php.
+
+Figure 2 by Lolke Boonstra, licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license.](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+
