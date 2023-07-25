@@ -10,13 +10,13 @@ He has a Doctorate in Mathematics and Informatics. And many years’ experience 
 
 These blogs expres the views of the author.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+Academic researchers should bother about their research subject and not their ICT needs. I want to collaborate with researchers to solve these needs. This by delivering ICT infrastructures to their laboratory from network to HPC and data sets.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+If you have questions, ideas or a problem we can solve together, please don’t hesitate to phone or e-mail me.
 
-
-[jekyll-organization]: https://github.com/jekyll
+Expertise
+- Network infrastructure 
+- High performance computing 
+- ICT governance 
+- Quantum Internet
+- Data Science
