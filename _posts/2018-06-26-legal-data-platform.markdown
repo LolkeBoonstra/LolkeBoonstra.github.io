@@ -11,7 +11,7 @@ For the workshop we also invited (next to the researchers) two of the data stewa
 
 An introductory presentation and discussion on the GDPR (AVG) was given by drs. Marlon Domingus from Erasmus University. He gave a thorough insight into how and where the GDPR (General Data Protection Regulation) comes into play. Although a (D)PIA (Privacy Impact Assessment) is not always necessary, it is a handy tool to get the discussion on track. Marlon presented a flowchart of a research project using (privacy) data. The flowchart was immediately applied to one of the WiFi data use cases during the discussion.
 
-![Flowchart](https://assets.digitalocean.com/articles/alligator/boo.svg "Flowchart")
+![Flowchart](/assets/img/csm_2018-06-26-Flowchart_3be9c66e41.png "Flowchart")
 
 Some of the key points:
 
@@ -20,7 +20,7 @@ Some of the key points:
 
 In the second part of the session I presented a global view of a data platform for the researchers. This platform combines different data resources into one storage system, which can be queried by the different researchers. The technical implementation is not the problem.
 
-![Platform](https://assets.digitalocean.com/articles/alligator/boo.svg "Platform")
+![Platform](/assets/img/csm_2018-06-26-Platform_5aa38875d2.png "Platform")
 
 In the session it was clear that the production side and storage part should comply to the GDPR. The production side is a further processing of already gathered data. The legal ground for this processing must be stated. This GDPR compliancy must be created by Department ICT&FM. Each researcher must then clearly define the purpose for which they are going to use the data and be GDPR compliant. Good user management is essential to control who can collect what data from the platform. The researcher must only be allowed to collect the data they need for their particular research question.
 

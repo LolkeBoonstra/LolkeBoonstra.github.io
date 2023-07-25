@@ -13,7 +13,7 @@ Probably the first thing people think about when discussing glass in the Netherl
 ### The basis of networking
 As can be seen from the Wikipedia quote, fibre is used a lot for networking. Especially the Internet relies heavily on fibre for its international connections. The super highway between western Europa and North America consists of lots of fibre sea cables. Also the African continent is connected to the Internet by a ring of fibres around the continent.
 
-![Northern Route](https://assets.digitalocean.com/articles/alligator/boo.svg "Northern Route")
+![Northern Route](/assets/img/Northern-Route.jpg "Northern Route")
 
 The Netherlands is very well equipped with glass fibre. The flat clay/sand surface is very suitable to roll-out fibre on land too. For the small country it is, we even are directly connected to the super highway. Our west coast has around 5 landing stations where sea cables end and are connected to the on land infrastructure.
 
@@ -32,7 +32,7 @@ Most of the light paths were created from the data centres. In these cases no re
 ### TheGreenVillage
 For this FieldLab a flexible infrastructure had to be designed at a time when there was only a green field (literally). To connect TheGreenVillage to the TU Delft network it was decided that TheGreenVillage itself would be connected as if it was one Campus building. This meant two fibre paths to the datacentres, so high resiliency was created. At first it looked like we had to work with equipment on the green field, so outdoors. Luckily the OfficeBuilding was built the same time the fibres were delivered. The OfficeBuilding became the main equipment room for the terrain.
 
-![GreenVillage Fibre](https://assets.digitalocean.com/articles/alligator/boo.svg "GreenVillage Fibre")
+![GreenVillage Fibre](/assets/imgGreenVillage-Fibre.jpg "GreenVillage Fibre")
 
 On the terrain itself the TU Delft invested heavily in hardware in the ground from the start. In this way no digging is needed for connecting a project on the terrain with fibre.  The whole terrain has  lots of places  where the fibre can be taken up to above ground to connect a project.
 

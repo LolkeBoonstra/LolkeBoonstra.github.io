@@ -18,7 +18,7 @@ The conference has its own network called SCInet. All big vendors contribute to 
 There was also an historic display of 30 year SCInet. From all implemented SCInet’s (so from 1988) a poster of the network layout was on display. A beautiful historic timeline of growth in the network complexity at Super Computing.
 
 
-![SCInet](https://assets.digitalocean.com/articles/alligator/boo.svg "SCInet")
+![SCInet](/assets/img/SCInet-booth.jpg "SCInet")
 
 ### 2019
 This year the conference was in Denver, the one mile high city. Being one mile above sea level also meant dry air and the problem high level sickness. So drinking lots of water. Happily Cray sponsored a handy water bottle and AMD the cool water tanks.
@@ -58,7 +58,7 @@ As already mentioned Mellanox presented its 200G Infiniband switches. At their d
 
 This year I had a meeting with HPE. 5 People from HPE turned up to tell me about the different roadmaps of the HPE products. I could have the meeting in my room as I was upgraded to the boardroom.
 
-![Boardroom](https://assets.digitalocean.com/articles/alligator/boo.svg "Boardroom")
+![Boardroom](/assets/img/Boardroom.jpg "Boardroom")
 
 ### HPC Considerations
 - Data centric or Compute centric (the first has the future)
@@ -71,7 +71,7 @@ The HPC clusters at the Universities in America don’t do sharing of resources.
 
 As there is no sharing, there are also no best practices on how the sharing is regulated. So no governance examples we can use for the TU Delft HPC.
 
-![KAFKA](https://assets.digitalocean.com/articles/alligator/boo.svg "KAFKA")
+![KAFKA](/assets/img/KAFKA.jpg "KAFKA")
 
 
 ### Acknowledgements
