@@ -57,3 +57,8 @@ defaults:
       path: "assets/img"
     values:
       image: true
+header_pages:
+  - about.markdown
+  - Lolke/index.html
+  - NeTCoN/index.html
+  - SeriousRequest/index.html
