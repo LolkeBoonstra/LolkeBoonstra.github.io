@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+  </head>
+  <body>
+      <div id="frame">
+        <!-- HIER BEGINT DE HEADER -->
+        <div id="header">
+        </div>
+        <table width=1000>
+          <tr>
+            <td class="content" width=750 valign=top align=left>
+
+              <!-- HIER BEGINT DE TEKST -->
+              {{ content }}
+            </td>
+            <!-- HIER BEGINT DE NAVIGATIE -->
+            <td class="content" width=250 valign=top align=left>
+              {% include lolkenav.html %}
+              {% include locallinks.html %}
+              <h2>Virtuele Wereld</h2>
+              <p class="links">
+                {% include links.html %}
+              </p>
+            </td>
+          </tr>
+        </table>
+      <!-- HIER BEGINT DE FOOTER -->
+      <div id="header">
+      </div>
+    </div>
+  </body>
+</html>
