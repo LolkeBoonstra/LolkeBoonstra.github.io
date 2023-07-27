@@ -1,11 +1,50 @@
 - name: Home
   link: /NieuwLeyden/
+  submenu:
+  - name: FotoAlbum
+    link: http://www.lolke.nl/gallery3/index.php/NieuwLeyden/
+
 - name: OnsHuis
   link: /NieuwLeyden/huis.html
+  submenu:
+  - name: Monsters
+    link: /NieuwLeyden/monsters.html
+  - name: Zonnepaneel
+    link: /NieuwLeyden/zonnepaneel.html
+  - name: Vloeren
+    link: /NieuwLeyden/vloeren.html
+  - name: Wonderwall
+    link: /NieuwLeyden/wonderwall1.html
+
 - name: DefinitiefOntwerp
   link: /NieuwLeyden/do.html
+  submenu:
+  - name: Plattegronden
+    link: /NieuwLeyden/do-plattegronden1.html
+  - name: Maquette BEAR
+    link: /NieuwLeyden/do-maquette1.html
+  - name: 3D BEAR
+    link: NieuwLeyden/do-3d1.html
+  - name: Maquettes Veld
+    link: /NieuwLeyden/do-maquetteblok.html
+
 - name: VoorlopigOntwerp
   link: /NieuwLeyden/vo.html
+  submenu:
+  - name: Ontwerp BEAR
+    link: /NieuwLeyden/vo-bear1.html
+  - name: Plattegronden
+    link: /NieuwLeyden/vo-plattegronden.html
+  - name: Eigen Ontwerp
+    link: /NieuwLeyden/vo-luitzen1.html
+
 - name: NieuwLeyden
   link: 
+  submenu:
+  - name: Kaarten
+    link: /NieuwLeyden/kaarten1.html
+  - name: De reclamezuil
+    link: /NieuwLeyden/reclame.html
+  - name: Het Bouwterrein
+    link: /NieuwLeyden/bouwterrein.html
 
