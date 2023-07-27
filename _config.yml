@@ -60,6 +60,3 @@ defaults:
 header_pages:
   - about.markdown
   - Lolke/index.html
-  - NeTCoN/index.html
-  - SeriousRequest/index.html
-  - NieuwLeyden/index.html
